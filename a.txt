@@ -1,1 +1,22 @@
 This is where my code start . I will create this synthetic world ...
+
+To use version controll : 
+
+make check point
+----------------
+git tag v0.0
+git push origin v0.0
+
+roll back 
+---------
+git checkout v0.0
+
+create a parlal branch
+----------------------
+git switch -c fixv0.0
+
+then fix all thing 
+
+commit and upload the branch
+-----------------------------
+git push -u origin fix-from-v0.0
